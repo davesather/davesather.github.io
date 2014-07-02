@@ -1,0 +1,104 @@
+/*page one 4 boxes one in each corner*/
+
+#one {
+	width: 50px;
+	background-color: red;
+	float: left;
+
+}
+
+#two {
+	width: 50px;
+	background-color: blue;
+	float: right;
+}
+
+#three {
+	width: 50px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+}
+
+#four {
+	width: 50px;
+	background-color: green;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+
+/*boxes stacked*/
+h1 {
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	position: absolute;
+	z-index: -1;
+}
+
+h2 {
+	width: 300px;
+	height: 300px;
+	background-color: blue;
+	position: absolute;
+	z-index: -1;
+}
+
+h3 {
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	position: absolute;
+	z-index: -1;
+}
+
+h4 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	z-index: -1;
+}
+
+/*page three*/
+
+div {
+	content: "1";
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+}
+
+div:before{
+	content: "2";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	top: 0;
+	left: 150px;
+
+}
+
+div:after{
+	content: "3";
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 300px;
+
+}
+
+
+
+
+
+
+
