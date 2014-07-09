@@ -2,49 +2,92 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<title>Document</title>
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 </head>
 <body>
 
-<header>
-	<nav>
-		<ul>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-			<li><a href="#">link</a></li>
-		</ul>
-	</nav>
-</header>
-<main>
-	<article>
-		<img src="http://www.fillmurray.com/300/200" alt="fill murry">
-		<h1>headline</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolores minus vitae, explicabo, maiores cum harum ducimus eveniet delectus ex id minima deleniti reiciendis facere odio quidem provident omnis culpa.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum modi in, atque at, pariatur fugit? Earum esse hic placeat optio quam autem provident eius accusantium, natus ad saepe, neque minima!</p>
-	</article>
-	<aside>
-		<ul>
-			<li>first list item</li>
-			<li>second list item</li>
-			<li>third list item</li>
-			<li>forth list item</li>
-			<li>fifth list item</li>
-		</ul>
-		<ul>
-			<li>first list item</li>
-			<li>second list item</li>
-			<li>third list item</li>
-			<li>forth list item</li>
-			<li>fifth list item</li>
-		</ul>
-	</aside>
-</main>
-<footer>
-	2014
-</footer>
-	
+<!-- nav -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SahterCo</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<!-- jumbotron -->
+<div class="jumbotron">
+  <h1>SatherCo</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laborum dolor repellendus laudantium, quia laboriosam maxime ut architecto nesciunt, fuga sequi voluptate necessitatibus fugit. Laboriosam eius, aliquam ducimus. Molestias, pariatur.</p>
+  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+</div>
+
+
+<!-- thumbnail -->
+<div class="row">
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/300x150" alt="">
+    </a>
+  </div>
+    <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/300x150" alt="">
+    </a>
+  </div>
+    <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="http://placehold.it/300x150" alt="">
+    </a>
+  </div>
+</div>
+
+
+
+	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>	
 </body>
 </html>
