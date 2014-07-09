@@ -27,12 +27,46 @@ header ul {
     padding: 0;
     margin: 0;
 }
-header li {
+
+.navbar-default {
+background-color: transparent;
+border-color: transparent;
+}
+@media (min-width: 768px)
+.navbar {
+border-radius: 0px;
+}
+.navbar {
+position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+}
+
+.navbar {
+ position: relative; 
+ min-height: 50px; 
+ margin-bottom: 20px; 
+ border: 1px solid transparent; 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+color: #333;
+background-color: transparent;
+}
+
+
+
+/*header li {
     display: inline-block;
     width: 25%;
     float: left;
     text-align: center;
-}
+}*/
 
 header li a {
     color: rgba(82, 160, 231, .5);

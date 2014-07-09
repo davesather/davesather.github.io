@@ -1,0 +1,25 @@
+
+p {
+	display: inline-block;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+}
+
+@media screen and (min-width: 800px){
+	p { 
+		display: inline-block;
+		background-color: red;
+		height: 100px;
+		width: 100px;
+	}
+}
+
+@media screen and (min-width: 600px){
+	p {
+		display: inline-block;
+		background-color: green;
+		height: 100px;
+		width: 100px;
+	}
+}
