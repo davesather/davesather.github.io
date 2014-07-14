@@ -1,0 +1,67 @@
+ul#myRoundabout {
+    position: relative;
+}
+#gallery li {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    z-index: 2;
+}
+#gallery li:first-child{
+    width: 40%;
+    left: 30%;
+    margin-left: -10%;
+    margin-top: 5%;
+    z-index: 1;
+}
+#gallery li:last-child{
+    width: 40%;
+    left: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+#content article {
+    width: 33.3333%;
+    float: left;
+    padding: 10px 20px;
+}
+
+#content article:nth-child(2){
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#content article img {
+    max-width: 100%;
+}
+
+#content2 article {
+    float: left;
+     padding: 10px 20px;
+}
+#content2 article:first-child {
+    width: 60%;
+}
+
+#content2 article:nth-child(2){
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+
+#content2 article:last-child {
+    width: 40%;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+
+
+
+

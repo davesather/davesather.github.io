@@ -51,7 +51,7 @@ body {
 /* Global Structure */
 .main {
 	margin:0 auto;
-	width:916px;
+	width:100%;
 }
 .body1 {
 	background:url(../images/bg_img2.jpg) center 560px no-repeat #eaeaea
