@@ -75,6 +75,11 @@ The content `<div>` is where all your content goes.
     color: #888;
 }
 
+.center {
+    display: block;
+    margin: 0 auto;
+    border-radius: 1.5%
+}
 
 
 /*
