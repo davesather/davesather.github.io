@@ -81,6 +81,14 @@ The content `<div>` is where all your content goes.
     border-radius: 1.5%
 }
 
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+    display: 50%
+}
 
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
