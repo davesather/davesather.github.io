@@ -89,6 +89,15 @@ The content `<div>` is where all your content goes.
     float: left;
 }
 
+.pad {
+    padding-bottom: 100px;
+}
+
+.footer {
+    border-top: 1px solid #eee;
+    font-size: 10pt;
+}
+
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
