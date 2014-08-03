@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+
+<h1>JavaScript Test</h1>
+
+<p>Click Date to display current day, date, and time.</p>
+
+<button type="button" onclick="myFunction()">Date</button>
+
+<div class="date">
+<p id="demo"></p>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+</body>
+</html>
