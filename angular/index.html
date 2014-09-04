@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <script src="angular.min.js"></script>
-</head>
-<body>
-    <h1>Angular Test Page</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis quod, rerum! Velit accusamus odio quibusdam ullam magni porro, et nostrum quasi eius asperiores aperiam, magnam unde ducimus, ad fugiat impedit.</p>
-    <input type="text" ng-model="name">
+<html ng-app> 
+	<head>
+		<script src="angular.min.js"></script>
+		<script src="controllers.js"></script> 
+	</head>
+	<body>
+		<h1>Test Page</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nesciunt aperiam numquam cum, eaque accusantium ratione. Omnis nostrum, deleniti reiciendis. Officiis numquam consectetur sequi voluptatibus, nihil accusantium nesciunt officia, nisi!</p>
+		<div ng-controller='TestController'>
+			<input ng-model='greeting.text'>
+			<p>{{greeting.text}}, your mom</p> 
+		</div>
+	</body>
+ </html>
 
 
 
 
-
-   
-</body>
-</html>
