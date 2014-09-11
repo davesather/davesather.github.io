@@ -6,11 +6,18 @@
 	</head>
 	<body>
 		<h1>Test Page</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nesciunt aperiam numquam cum, eaque accusantium ratione. Omnis nostrum, deleniti reiciendis. Officiis numquam consectetur sequi voluptatibus, nihil accusantium nesciunt officia, nisi!</p>
-		<div ng-controller='TestController'>
+		<button ng-mouseover="count = count + 1" ng-init="count=0">
+  Increment (when mouse is over)
+</button>
+count: {{count}}
+
+<span>
+<timer interval="1000">{{hours}} hours, {{minutes}} minutes, {{seconds}} seconds, {{millis}} milliseconds.</timer>
+</span>
+<!-- 		<div ng-controller='TestController'>
 			<input ng-model='greeting.text'>
-			<p>{{greeting.text}}, your mom</p> 
-		</div>
+			<p>{{greeting.text}}, world</p> 
+		</div> -->
 	</body>
  </html>
 
