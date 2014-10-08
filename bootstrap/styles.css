@@ -2,3 +2,26 @@
   display: block;
   margin: 0 auto;
 }
+
+.navbar {
+	background-color: #757575;
+}
+
+.carousel {
+	max-width: 800px;
+	margin-top: 40px;
+	margin-bottom: 80px;
+
+}
+
+.carousel-control {
+	max-height: 94.5%;
+}
+
+img {
+	border-radius: 4px;
+}
+
+body {
+	background-color: #F9F7F7;
+}
