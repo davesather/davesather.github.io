@@ -83,6 +83,9 @@ a:after {
     padding: 0;
 }
 
+img {
+	max-width: 150px;
+}
 
 .navbar {
 	text-transform: uppercase;
